@@ -2,7 +2,7 @@
 	border: 1px dashed red;
 	min-height: 10px;
 }
-
+*/
 body {
 	background: black;
 }
@@ -10,11 +10,13 @@ body {
 .postcard {
 	background-color: white;
 	width: 400px;
-	height: 600px;
+	height: 300px;
+	padding: 10px;
 	margin: auto;
 }
 .postcard-header {
 	display: flex;
+	padding: 2px;
 }
 .postcard-header h1 {
 	width: 340px;
@@ -27,7 +29,7 @@ body {
 }
 .postcard-body {
 	display: flex;
-	height: 80%;
+	padding: 10px;
 }
 .body-left {
 }
@@ -51,6 +53,7 @@ input {
 
 .postcard-footer {
 	text-align: center;
+	padding: 10px;
 }
 
 button {
